@@ -1,0 +1,14 @@
+{
+  "name": "zhuweiyou-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "自动生成 zhuweiyou 个人主页 README 与仓库数据",
+  "scripts": {
+    "update": "node scripts/update-readme.mjs",
+    "update:dry": "node scripts/update-readme.mjs --dry"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

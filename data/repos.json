@@ -1,0 +1,401 @@
+{
+  "generatedAt": "2026-10-31T12:09:38.614Z",
+  "user": {
+    "login": "zhuweiyou",
+    "name": null,
+    "bio": "Developer",
+    "followers": 293,
+    "publicRepos": 31
+  },
+  "repos": [
+    {
+      "name": "weixin-game-helper",
+      "url": "https://github.com/zhuweiyou/weixin-game-helper",
+      "description": "微信小游戏辅助合集（加减大师、包你懂我、大家来找茬腾讯版、头脑王者、好友画我、悦动音符、我最在行、星途WeGoing、猜画小歌、知乎答题王、腾讯中国象棋、跳一跳、题多多黄金版）",
+      "language": "JavaScript",
+      "stars": 1400,
+      "forks": 388,
+      "topics": [
+        "anyproxy",
+        "charles",
+        "crawl",
+        "fiddler",
+        "game",
+        "helper",
+        "mongodb",
+        "nodejs",
+        "python",
+        "robot",
+        "socket",
+        "weixin"
+      ],
+      "archived": true,
+      "updatedAt": "2026-10-15",
+      "pushedAt": "2023-06-21"
+    },
+    {
+      "name": "chatgpt-api",
+      "url": "https://github.com/zhuweiyou/chatgpt-api",
+      "description": "封装 OpenAI 网页版最新 ChatGPT 接口, 不需要使用 API Key, 完全免费",
+      "language": "JavaScript",
+      "stars": 364,
+      "forks": 94,
+      "topics": [
+        "chatgpt",
+        "chatgpt-api"
+      ],
+      "archived": true,
+      "updatedAt": "2026-09-18",
+      "pushedAt": "2023-05-27"
+    },
+    {
+      "name": "wxapkg",
+      "url": "https://github.com/zhuweiyou/wxapkg",
+      "description": "微信小程序一键解密和解包工具",
+      "language": "Go",
+      "stars": 202,
+      "forks": 46,
+      "topics": [
+        "miniprogram",
+        "wechat",
+        "weixin",
+        "wxapkg"
+      ],
+      "archived": true,
+      "updatedAt": "2026-10-16",
+      "pushedAt": "2026-02-08"
+    },
+    {
+      "name": "fetop100",
+      "url": "https://github.com/zhuweiyou/fetop100",
+      "description": "微信小程序 “前端TOP100”",
+      "language": "JavaScript",
+      "stars": 138,
+      "forks": 23,
+      "topics": [
+        "top100",
+        "weapp"
+      ],
+      "archived": true,
+      "updatedAt": "2025-06-09",
+      "pushedAt": "2019-04-25"
+    },
+    {
+      "name": "weixin-headimg",
+      "url": "https://github.com/zhuweiyou/weixin-headimg",
+      "description": "一键合成所有微信好友头像",
+      "language": "JavaScript",
+      "stars": 133,
+      "forks": 36,
+      "topics": [
+        "headimg",
+        "puppeteer",
+        "weixin"
+      ],
+      "archived": true,
+      "updatedAt": "2026-10-19",
+      "pushedAt": "2018-01-02"
+    },
+    {
+      "name": "yiyan-api",
+      "url": "https://github.com/zhuweiyou/yiyan-api",
+      "description": "封装百度文心一言网页版 API",
+      "language": "JavaScript",
+      "stars": 72,
+      "forks": 20,
+      "topics": [
+        "ernie",
+        "wenxin",
+        "wenxinyiyan",
+        "yiyan",
+        "yiyan-api"
+      ],
+      "archived": true,
+      "updatedAt": "2026-10-20",
+      "pushedAt": "2023-09-11"
+    },
+    {
+      "name": "vite-plugin-minify",
+      "url": "https://github.com/zhuweiyou/vite-plugin-minify",
+      "description": "Minify html in production",
+      "language": "TypeScript",
+      "stars": 54,
+      "forks": 4,
+      "topics": [
+        "minify",
+        "minify-html",
+        "vite-plugin",
+        "vite-plugin-minify"
+      ],
+      "archived": false,
+      "updatedAt": "2026-10-15",
+      "pushedAt": "2026-05-28"
+    },
+    {
+      "name": "oc2api",
+      "url": "https://github.com/zhuweiyou/oc2api",
+      "description": "OpenCode 免费模型的 OpenAI 兼容代理，纯 Go 实现，支持 SSE 流式，可部署到 Vercel、Docker 或本地。",
+      "language": "Go",
+      "stars": 39,
+      "forks": 70,
+      "topics": [
+        "openai",
+        "opencode",
+        "opencode-proxy"
+      ],
+      "archived": false,
+      "updatedAt": "2026-10-28",
+      "pushedAt": "2026-10-29"
+    },
+    {
+      "name": "codearts2api",
+      "url": "https://github.com/zhuweiyou/codearts2api",
+      "description": "把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、qoder、cline、opencode、minimax、gemini、智谱 AutoClaw、ModelScope、阿里 Accio 等）",
+      "language": "JavaScript",
+      "stars": 27,
+      "forks": 7,
+      "topics": [
+        "free-model",
+        "openai-gateway"
+      ],
+      "archived": false,
+      "updatedAt": "2026-10-31",
+      "pushedAt": "2026-10-31"
+    },
+    {
+      "name": "vite-plugin-mp",
+      "url": "https://github.com/zhuweiyou/vite-plugin-mp",
+      "description": "Configure multi-pages applications and code splitting",
+      "language": "JavaScript",
+      "stars": 24,
+      "forks": 1,
+      "topics": [],
+      "archived": false,
+      "updatedAt": "2026-10-15",
+      "pushedAt": "2026-07-02"
+    },
+    {
+      "name": "weixin-game-helper-search",
+      "url": "https://github.com/zhuweiyou/weixin-game-helper-search",
+      "description": "基于搜索引擎的问答匹配度查询",
+      "language": "JavaScript",
+      "stars": 11,
+      "forks": 4,
+      "topics": [
+        "answer",
+        "question",
+        "search"
+      ],
+      "archived": true,
+      "updatedAt": "2023-09-12",
+      "pushedAt": "2023-06-21"
+    },
+    {
+      "name": "intelephense-cracker",
+      "url": "https://github.com/zhuweiyou/intelephense-cracker",
+      "description": "Intelephense 激活工具",
+      "language": "Go",
+      "stars": 5,
+      "forks": 2,
+      "topics": [],
+      "archived": false,
+      "updatedAt": "2026-10-13",
+      "pushedAt": "2026-02-08"
+    },
+    {
+      "name": "weixinbot",
+      "url": "https://github.com/zhuweiyou/weixinbot",
+      "description": "基于微信 iLink Bot API 的最小 Node.js 示例。",
+      "language": "JavaScript",
+      "stars": 4,
+      "forks": 0,
+      "topics": [],
+      "archived": false,
+      "updatedAt": "2026-05-29",
+      "pushedAt": "2026-03-23"
+    },
+    {
+      "name": "e-call-go-dll",
+      "url": "https://github.com/zhuweiyou/e-call-go-dll",
+      "description": "易语言调用 GoLang 编译的 DLL 示例",
+      "language": "C",
+      "stars": 2,
+      "forks": 3,
+      "topics": [
+        "go-dll"
+      ],
+      "archived": false,
+      "updatedAt": "2026-08-04",
+      "pushedAt": "2023-08-08"
+    },
+    {
+      "name": "decktrace",
+      "url": "https://github.com/zhuweiyou/decktrace",
+      "description": "通用斗地主记牌器",
+      "language": "Rust",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "archived": false,
+      "updatedAt": "2026-10-29",
+      "pushedAt": "2026-10-29"
+    },
+    {
+      "name": "dsh-plugin-clawbot",
+      "url": "https://github.com/zhuweiyou/dsh-plugin-clawbot",
+      "description": "DSH（DeepSeek Harness）的微信 ClawBot 通道插件",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "topics": [
+        "dsh-plugin"
+      ],
+      "archived": true,
+      "updatedAt": "2026-10-18",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "name": "js-call-java",
+      "url": "https://github.com/zhuweiyou/js-call-java",
+      "description": "",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "archived": false,
+      "updatedAt": "2025-06-09",
+      "pushedAt": "2024-04-24"
+    },
+    {
+      "name": "dsh-holdem",
+      "url": "https://github.com/zhuweiyou/dsh-holdem",
+      "description": "DSH 多人联网德州扑克插件",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "topics": [
+        "dsh-plugin"
+      ],
+      "archived": false,
+      "updatedAt": "2026-10-31",
+      "pushedAt": "2026-10-26"
+    },
+    {
+      "name": "dsh-idea-git",
+      "url": "https://github.com/zhuweiyou/dsh-idea-git",
+      "description": "IDEA 风格的 Git 工具窗口，作为 DeepSeek Harness（DSH）插件运行",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "topics": [
+        "dsh-plugin"
+      ],
+      "archived": false,
+      "updatedAt": "2026-10-31",
+      "pushedAt": "2026-10-31"
+    },
+    {
+      "name": "dsh-web-fetch-fix",
+      "url": "https://github.com/zhuweiyou/dsh-web-fetch-fix",
+      "description": "修复 DSH web_fetch：在开了 VPN/TUN（如 Clash fake-ip）的机器上，抓取公网网页会被误判成内网地址而拒绝。",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "topics": [
+        "dsh-plugin"
+      ],
+      "archived": false,
+      "updatedAt": "2026-10-31",
+      "pushedAt": "2026-10-29"
+    },
+    {
+      "name": "magpie-oc2api",
+      "url": "https://github.com/zhuweiyou/magpie-oc2api",
+      "description": "在 magpie 里使用你在 Vercel 上的 https://github.com/zhuweiyou/oc2api 实例。",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "topics": [
+        "magpie-plugin",
+        "opencode-free-api"
+      ],
+      "archived": false,
+      "updatedAt": "2026-10-27",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "name": "dsh-qq2006",
+      "url": "https://github.com/zhuweiyou/dsh-qq2006",
+      "description": "DSH QQ2006 皮肤插件",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "archived": false,
+      "updatedAt": "2026-10-25",
+      "pushedAt": "2026-10-25"
+    },
+    {
+      "name": "tinyjpg-idea-plugin",
+      "url": "https://github.com/zhuweiyou/tinyjpg-idea-plugin",
+      "description": "TinyJPG Idea Plugin",
+      "language": "Kotlin",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "archived": false,
+      "updatedAt": "2026-10-13",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "name": "tinyjpg",
+      "url": "https://github.com/zhuweiyou/tinyjpg",
+      "description": "TinyJPG CLI",
+      "language": "Go",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "archived": false,
+      "updatedAt": "2026-08-31",
+      "pushedAt": "2026-07-30"
+    },
+    {
+      "name": "chatgpt-team-helper-extension",
+      "url": "https://github.com/zhuweiyou/chatgpt-team-helper-extension",
+      "description": "ChatGPT Team Helper",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "archived": true,
+      "updatedAt": "2026-07-15",
+      "pushedAt": "2026-07-07"
+    },
+    {
+      "name": "memoryscanner",
+      "url": "https://github.com/zhuweiyou/memoryscanner",
+      "description": "内存扫描器, 类似于CE的字符串模糊搜索",
+      "language": "Go",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "archived": false,
+      "updatedAt": "2025-10-27",
+      "pushedAt": "2025-10-27"
+    },
+    {
+      "name": "js-call-go-dll",
+      "url": "https://github.com/zhuweiyou/js-call-go-dll",
+      "description": "JavaScript 调用 GoLang 编译的 DLL 示例",
+      "language": "C",
+      "stars": 0,
+      "forks": 0,
+      "topics": [
+        "go-dll"
+      ],
+      "archived": false,
+      "updatedAt": "2023-08-07",
+      "pushedAt": "2023-08-07"
+    }
+  ]
+}
