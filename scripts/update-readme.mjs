@@ -203,14 +203,12 @@ function renderReadme(repos) {
 
 ${renderLanguages(repos)}
 
-## 📦 全部公开仓库
-
 ${MARK_START}
-### 🟢 活跃项目
+## 🟢 活跃项目
 
 ${renderTable(active)}
 
-### 🗄️ 归档项目
+## 🗄️ 归档项目
 
 ${renderTable(archived, { showArchivedTag: false })}
 ${MARK_END}

@@ -7,10 +7,8 @@
 - **Kotlin**
 - **Rust**
 
-## 📦 全部公开仓库
-
 <!-- REPOS:START -->
-### 🟢 活跃项目
+## 🟢 活跃项目
 
 <table>
 <thead>
@@ -38,7 +36,7 @@
 </tbody>
 </table>
 
-### 🗄️ 归档项目
+## 🗄️ 归档项目
 
 <table>
 <thead>
