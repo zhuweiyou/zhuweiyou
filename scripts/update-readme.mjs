@@ -133,17 +133,36 @@ function normalize(repos) {
     .sort((a, b) => b.stars - a.stars || b.updatedAt.localeCompare(a.updatedAt) || a.name.localeCompare(b.name));
 }
 
+const escapeHtml = (s) =>
+  String(s ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+
+// 生成 HTML 表格：第 1 列（项目）与第 3 列（最后提交）不换行，第 2 列（简介）允许换行
 function renderTable(repos, { showArchivedTag = true } = {}) {
   if (!repos.length) return '_暂无（无）_';
   const rows = repos.map((r) => {
-    const name = `[${r.name}](${r.url})${showArchivedTag && r.archived ? ' `已归档`' : ''}`;
-    const desc = escapeCell(truncate(r.description || '—', 90)) || '—';
-    return `| ${name} | ${desc} | ${r.pushedAt} |`;
+    const tag = showArchivedTag && r.archived ? ' <code>已归档</code>' : '';
+    const desc = escapeHtml(escapeCell(truncate(r.description || '—', 90)) || '—');
+    return (
+      `<tr>` +
+      `<td style="white-space:nowrap"><a href="${escapeHtml(r.url)}">${escapeHtml(r.name)}</a>${tag}</td>` +
+      `<td style="white-space:normal">${desc}</td>` +
+      `<td style="white-space:nowrap">${r.pushedAt}</td>` +
+      `</tr>`
+    );
   });
   return [
-    '| 项目 | 简介 | 最后提交 |',
-    '| --- | --- | :-: |',
+    '<table>',
+    '<thead>',
+    '<tr><th style="white-space:nowrap">项目</th><th style="white-space:normal">简介</th><th style="white-space:nowrap">最后提交</th></tr>',
+    '</thead>',
+    '<tbody>',
     ...rows,
+    '</tbody>',
+    '</table>',
   ].join('\n');
 }
 
