@@ -16,7 +16,7 @@
 | --- | --- | :-: |
 | [codearts2api](https://github.com/zhuweiyou/codearts2api) | 把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、q… | 2026-10-31 |
 | [dsh-idea-git](https://github.com/zhuweiyou/dsh-idea-git) | IDEA 风格的 Git 工具窗口，作为 DeepSeek Harness（DSH）插件运行 | 2026-10-31 |
-| [decktrace](https://github.com/zhuweiyou/decktrace) | 通用斗地主记牌器 | 2026-10-29 |
+| [decktrace](https://github.com/zhuweiyou/decktrace) | 通用斗地主记牌器 | 2026-10-30 |
 | [dsh-web-fetch-fix](https://github.com/zhuweiyou/dsh-web-fetch-fix) | 修复 DSH web_fetch：在开了 VPN/TUN（如 Clash fake-ip）的机器上，抓取公网网页会被误判成内网地址而拒绝。 | 2026-10-29 |
 | [oc2api](https://github.com/zhuweiyou/oc2api) | OpenCode 免费模型的 OpenAI 兼容代理，纯 Go 实现，支持 SSE 流式，可部署到 Vercel、Docker 或本地。 | 2026-10-29 |
 | [magpie-oc2api](https://github.com/zhuweiyou/magpie-oc2api) | 在 magpie 里使用你在 Vercel 上的 https://github.com/zhuweiyou/oc2api 实例。 | 2026-10-27 |

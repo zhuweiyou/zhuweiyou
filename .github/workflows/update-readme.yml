@@ -2,8 +2,8 @@ name: Update README
 
 on:
   schedule:
-    # 每天 00:00（北京时间 UTC+8）；GitHub Actions 使用 UTC，故为前一天 16:00 UTC
-    - cron: '0 16 * * *'
+    # 每天 00:01（北京时间 UTC+8）；GitHub Actions 使用 UTC，故为前一天 16:01 UTC
+    - cron: '1 16 * * *'
   workflow_dispatch: {}
 
 permissions:

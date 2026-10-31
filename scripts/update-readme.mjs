@@ -86,7 +86,31 @@ const escapeCell = (s) =>
 
 const truncate = (s, n) => (s.length > n ? s.slice(0, n - 1).trimEnd() + '…' : s);
 
-const fmtDate = (iso) => (iso ? new Date(iso).toISOString().slice(0, 10) : '');
+// 统一按东八区（Asia/Shanghai, UTC+8）格式化为 YYYY-MM-DD
+const fmtDate = (iso) => {
+  if (!iso) return '';
+  return new Intl.DateTimeFormat('zh-CN', {
+    timeZone: 'Asia/Shanghai',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  })
+    .format(new Date(iso))
+    .replace(/\//g, '-');
+};
+
+// 东八区当前时间，形如 2026-10-31T20:12:00+08:00
+const nowShanghaiISO = () => {
+  const d = new Date();
+  const p = Object.fromEntries(
+    new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Asia/Shanghai',
+      year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false,
+    }).formatToParts(d).map((x) => [x.type, x.value])
+  );
+  return `${p.year}-${p.month}-${p.day}T${p.hour === '24' ? '00' : p.hour}:${p.minute}:${p.second}+08:00`;
+};
 
 function normalize(repos) {
   return repos
@@ -193,7 +217,7 @@ async function main() {
   await mkdir(path.dirname(JSON_PATH), { recursive: true });
   await writeFile(
     JSON_PATH,
-    JSON.stringify({ generatedAt: new Date().toISOString(), user: { login: user.login, name: user.name, bio: user.bio, followers: user.followers, publicRepos: user.public_repos }, repos }, null, 2) + '\n',
+    JSON.stringify({ generatedAt: nowShanghaiISO(), user: { login: user.login, name: user.name, bio: user.bio, followers: user.followers, publicRepos: user.public_repos }, repos }, null, 2) + '\n',
     'utf8'
   );
 
