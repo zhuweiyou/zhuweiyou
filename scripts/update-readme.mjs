@@ -77,39 +77,6 @@ async function fetchAllRepos() {
   return all;
 }
 
-// 拉取「在他人仓库已合并的 PR」（排除自己的仓库）
-async function fetchMergedPRs() {
-  const q = `author:${USER} is:pr is:merged -user:${USER} is:public`;
-  const all = [];
-  for (let page = 1; page <= 5; page++) {
-    const data = await gh(
-      `https://api.github.com/search/issues?q=${encodeURIComponent(q)}` +
-        `&sort=created&order=desc&per_page=100&page=${page}`
-    );
-    const items = Array.isArray(data.items) ? data.items : [];
-    all.push(...items);
-    if (items.length < 100 || all.length >= (data.total_count || 0)) break;
-  }
-  // 同一仓库只保留最新合并的那个 PR（按合并时间取最大）
-  const byRepo = new Map();
-  for (const it of all) {
-    const repo = (it.repository_url || '').split('/repos/')[1] || '';
-    const item = {
-      repo,
-      number: it.number,
-      title: (it.title || '').trim(),
-      url: it.html_url,
-      mergedAt: fmtDate(it.closed_at || it.pull_request?.merged_at),
-    };
-    const prev = byRepo.get(repo);
-    if (!prev || item.mergedAt > prev.mergedAt) byRepo.set(repo, item);
-  }
-  const items = [...byRepo.values()].sort(
-    (a, b) => b.mergedAt.localeCompare(a.mergedAt) || a.repo.localeCompare(b.repo)
-  );
-  return { total: items.length, items };
-}
-
 const escapeCell = (s) =>
   String(s ?? '')
     .replace(/\r?\n+/g, ' ')
@@ -213,33 +180,7 @@ function renderLanguages(repos) {
   return list.map(([lang]) => `- **${lang}**`).join('\n');
 }
 
-function renderContribs(contribs, limit = Infinity) {
-  if (!contribs || !contribs.items.length) return '_暂无（无）_';
-  const rows = contribs.items.slice(0, limit).map((c) => {
-    const label = noBreak(escapeHtml(`${c.repo}#${c.number}`));
-    const title = escapeHtml(truncate(c.title || '—', 80));
-    return (
-      `<tr>` +
-      `<td style="white-space:nowrap"><a href="${escapeHtml(c.url)}">${label}</a></td>` +
-      `<td style="white-space:normal">${title}</td>` +
-      `<td style="white-space:nowrap">${noBreak(c.mergedAt)}</td>` +
-      `</tr>`
-    );
-  });
-  const table = [
-    '<table>',
-    '<thead>',
-    '<tr><th style="white-space:nowrap">项目</th><th style="white-space:normal">PR</th><th style="white-space:nowrap">合并时间</th></tr>',
-    '</thead>',
-    '<tbody>',
-    ...rows,
-    '</tbody>',
-    '</table>',
-  ].join('\n');
-  return table;
-}
-
-function renderReadme(repos, contribs) {
+function renderReadme(repos) {
   // 活跃仓库（非归档、非 fork）按最后一次提交时间倒序（新的在前）
   const active = repos
     .filter((r) => !r.archived)
@@ -269,10 +210,6 @@ ${MARK_START}
 
 ${renderTable(active)}
 
-### 🤝 参与项目
-
-${renderContribs(contribs)}
-
 ### 🗄️ 归档项目
 
 ${renderTable(archived, { showArchivedTag: false })}
@@ -285,13 +222,12 @@ ${MARK_END}
 
 async function main() {
   console.log(`→ 拉取 ${USER} 的公开仓库…`);
-  const [user, rawRepos, contribs] = await Promise.all([fetchUser(), fetchAllRepos(), fetchMergedPRs()]);
+  const [user, rawRepos] = await Promise.all([fetchUser(), fetchAllRepos()]);
   const repos = normalize(rawRepos);
   console.log(`  用户：${user.name || user.login}（公开仓库 ${user.public_repos}）`);
   console.log(`  参与展示：${repos.length} 个（排除 fork / 主页仓库后）`);
-  console.log(`  他人仓库已合并 PR：${contribs.total} 个`);
 
-  const readme = renderReadme(repos, contribs);
+  const readme = renderReadme(repos);
 
   if (DRY) {
     console.log('\n----- README.md（预览）-----\n');
@@ -303,7 +239,7 @@ async function main() {
   await mkdir(path.dirname(JSON_PATH), { recursive: true });
   await writeFile(
     JSON_PATH,
-    JSON.stringify({ generatedAt: nowShanghaiISO(), user: { login: user.login, name: user.name, bio: user.bio, followers: user.followers, publicRepos: user.public_repos }, repos, contributions: contribs }, null, 2) + '\n',
+    JSON.stringify({ generatedAt: nowShanghaiISO(), user: { login: user.login, name: user.name, bio: user.bio, followers: user.followers, publicRepos: user.public_repos }, repos }, null, 2) + '\n',
     'utf8'
   );
 
