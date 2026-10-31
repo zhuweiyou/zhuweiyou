@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T20:26:24+08:00",
+  "generatedAt": "2026-11-01T03:47:46+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
@@ -243,6 +243,21 @@
       "pushedAtRaw": "2023-08-08T01:53:51Z"
     },
     {
+      "name": "dsh-idea-git",
+      "url": "https://github.com/zhuweiyou/dsh-idea-git",
+      "description": "IDEA 风格的 Git 工具窗口，作为 DeepSeek Harness（DSH）插件运行",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "topics": [
+        "dsh-plugin"
+      ],
+      "archived": false,
+      "updatedAt": "2026-11-01",
+      "pushedAt": "2026-10-31",
+      "pushedAtRaw": "2026-10-31T12:50:02Z"
+    },
+    {
       "name": "js-call-java",
       "url": "https://github.com/zhuweiyou/js-call-java",
       "description": "nodejs 调用 java 的 jar 示例",
@@ -297,21 +312,6 @@
       "updatedAt": "2026-10-31",
       "pushedAt": "2026-10-26",
       "pushedAtRaw": "2026-10-26T05:57:58Z"
-    },
-    {
-      "name": "dsh-idea-git",
-      "url": "https://github.com/zhuweiyou/dsh-idea-git",
-      "description": "IDEA 风格的 Git 工具窗口，作为 DeepSeek Harness（DSH）插件运行",
-      "language": "TypeScript",
-      "stars": 0,
-      "forks": 0,
-      "topics": [
-        "dsh-plugin"
-      ],
-      "archived": false,
-      "updatedAt": "2026-10-31",
-      "pushedAt": "2026-10-31",
-      "pushedAtRaw": "2026-10-31T12:03:41Z"
     },
     {
       "name": "dsh-web-fetch-fix",
