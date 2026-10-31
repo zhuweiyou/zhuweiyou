@@ -129,6 +129,7 @@ function normalize(repos) {
       archived: !!r.archived,
       updatedAt: fmtDate(r.updated_at),
       pushedAt: fmtDate(r.pushed_at),
+      pushedAtRaw: r.pushed_at || '',
     }))
     .sort((a, b) => b.stars - a.stars || b.updatedAt.localeCompare(a.updatedAt) || a.name.localeCompare(b.name));
 }
@@ -184,7 +185,7 @@ function renderReadme(repos) {
   // 活跃仓库（非归档、非 fork）按最后一次提交时间倒序（新的在前）
   const active = repos
     .filter((r) => !r.archived)
-    .sort((a, b) => b.pushedAt.localeCompare(a.pushedAt) || a.name.localeCompare(b.name));
+    .sort((a, b) => b.pushedAtRaw.localeCompare(a.pushedAtRaw) || a.name.localeCompare(b.name));
   const archived = repos.filter((r) => r.archived);
 
   const updatedAt = new Intl.DateTimeFormat('zh-CN', {
