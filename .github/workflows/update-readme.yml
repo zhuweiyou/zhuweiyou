@@ -1,0 +1,39 @@
+name: Update README
+
+on:
+  schedule:
+    # 每天 00:00（北京时间 UTC+8）；GitHub Actions 使用 UTC，故为前一天 16:00 UTC
+    - cron: '0 16 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-readme.mjs
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add README.md data/repos.json
+            git commit -m "chore: auto-update README"
+            git push
+          else
+            echo "No changes."
+          fi
