@@ -141,6 +141,9 @@ const escapeHtml = (s) =>
     .replace(/"/g, '&quot;');
 
 // 生成 HTML 表格：第 1 列（项目）与第 3 列（最后提交）不换行，第 2 列（简介）允许换行
+// 用不换行连字符（U+2011）替代普通连字符，避免在 - 处断行（GitHub 会剥离 style，靠字符本身兜底）
+const noBreak = (s) => String(s ?? '').replace(/-/g, '&#8209;');
+
 function renderTable(repos, { showArchivedTag = true } = {}) {
   if (!repos.length) return '_暂无（无）_';
   const rows = repos.map((r) => {
@@ -148,9 +151,9 @@ function renderTable(repos, { showArchivedTag = true } = {}) {
     const desc = escapeHtml(escapeCell(truncate(r.description || '—', 90)) || '—');
     return (
       `<tr>` +
-      `<td style="white-space:nowrap"><a href="${escapeHtml(r.url)}">${escapeHtml(r.name)}</a>${tag}</td>` +
+      `<td style="white-space:nowrap"><a href="${escapeHtml(r.url)}">${noBreak(escapeHtml(r.name))}</a>${tag}</td>` +
       `<td style="white-space:normal">${desc}</td>` +
-      `<td style="white-space:nowrap">${r.pushedAt}</td>` +
+      `<td style="white-space:nowrap">${noBreak(r.pushedAt)}</td>` +
       `</tr>`
     );
   });
