@@ -111,15 +111,14 @@ function normalize(repos) {
 
 function renderTable(repos, { showArchivedTag = true } = {}) {
   if (!repos.length) return '_暂无（无）_';
-  const rows = repos.map((r, i) => {
+  const rows = repos.map((r) => {
     const name = `[${r.name}](${r.url})${showArchivedTag && r.archived ? ' `已归档`' : ''}`;
     const desc = escapeCell(truncate(r.description || '—', 90)) || '—';
-    const lang = r.language ? escapeCell(r.language) : '—';
-    return `| ${i + 1} | ${name} | ${desc} | ${lang} | ${r.stars} | ${r.pushedAt} |`;
+    return `| ${name} | ${desc} | ${r.pushedAt} |`;
   });
   return [
-    '| # | 项目 | 简介 | 语言 | ⭐ | 最后提交 |',
-    '| :-: | --- | --- | :-: | :-: | :-: |',
+    '| 项目 | 简介 | 最后提交 |',
+    '| --- | --- | :-: |',
     ...rows,
   ].join('\n');
 }
@@ -142,6 +141,18 @@ function renderReadme(repos) {
     .sort((a, b) => b.pushedAt.localeCompare(a.pushedAt) || a.name.localeCompare(b.name));
   const archived = repos.filter((r) => r.archived);
 
+  const updatedAt = new Intl.DateTimeFormat('zh-CN', {
+    timeZone: 'Asia/Shanghai',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false,
+  })
+    .format(new Date())
+    .replace(/\//g, '-');
+
   return `## 🧰 主要语言
 
 ${renderLanguages(repos)}
@@ -157,6 +168,8 @@ ${renderTable(active)}
 
 ${renderTable(archived, { showArchivedTag: false })}
 ${MARK_END}
+
+以上数据自动更新时间：${updatedAt}
 
 `;
 }
