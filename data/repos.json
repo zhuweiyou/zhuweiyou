@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-01T03:47:46+08:00",
+  "generatedAt": "2026-11-02T04:21:34+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
     "bio": "Developer",
     "followers": 293,
-    "publicRepos": 31
+    "publicRepos": 32
   },
   "repos": [
     {
@@ -160,16 +160,16 @@
       "url": "https://github.com/zhuweiyou/codearts2api",
       "description": "把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、qoder、cline、opencode、minimax、gemini、智谱 AutoClaw、ModelScope、阿里 Accio 等）",
       "language": "JavaScript",
-      "stars": 27,
+      "stars": 28,
       "forks": 7,
       "topics": [
         "free-model",
         "openai-gateway"
       ],
       "archived": false,
-      "updatedAt": "2026-10-31",
-      "pushedAt": "2026-10-31",
-      "pushedAtRaw": "2026-10-31T05:25:11Z"
+      "updatedAt": "2026-11-01",
+      "pushedAt": "2026-11-01",
+      "pushedAtRaw": "2026-11-01T06:05:16Z"
     },
     {
       "name": "vite-plugin-mp",
@@ -254,8 +254,8 @@
       ],
       "archived": false,
       "updatedAt": "2026-11-01",
-      "pushedAt": "2026-10-31",
-      "pushedAtRaw": "2026-10-31T12:50:02Z"
+      "pushedAt": "2026-11-01",
+      "pushedAtRaw": "2026-11-01T09:35:32Z"
     },
     {
       "name": "js-call-java",
@@ -309,9 +309,22 @@
         "dsh-plugin"
       ],
       "archived": false,
-      "updatedAt": "2026-10-31",
-      "pushedAt": "2026-10-26",
-      "pushedAtRaw": "2026-10-26T05:57:58Z"
+      "updatedAt": "2026-11-01",
+      "pushedAt": "2026-11-01",
+      "pushedAtRaw": "2026-11-01T00:49:49Z"
+    },
+    {
+      "name": "phonecard",
+      "url": "https://github.com/zhuweiyou/phonecard",
+      "description": "手机桌面卡片",
+      "language": "Java",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "archived": false,
+      "updatedAt": "2026-11-01",
+      "pushedAt": "2026-11-01",
+      "pushedAtRaw": "2026-11-01T06:32:10Z"
     },
     {
       "name": "dsh-web-fetch-fix",
