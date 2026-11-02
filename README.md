@@ -16,7 +16,7 @@
 <tr><th style="white-space:nowrap">项目</th><th style="white-space:normal">简介</th><th style="white-space:nowrap">最后提交</th></tr>
 </thead>
 <tbody>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/dsh-idea-git">dsh&#8209;idea&#8209;git</a></td><td style="white-space:normal">IDEA 风格的 Git 工具窗口，作为 DeepSeek Harness（DSH）插件运行</td><td style="white-space:nowrap">2026&#8209;11&#8209;01</td></tr>
+<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/dsh-idea-git">dsh&#8209;idea&#8209;git</a></td><td style="white-space:normal">IDEA 风格的 Git 工具窗口，作为 DeepSeek Harness（DSH）插件运行</td><td style="white-space:nowrap">2026&#8209;11&#8209;02</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/phonecard">phonecard</a></td><td style="white-space:normal">手机桌面卡片</td><td style="white-space:nowrap">2026&#8209;11&#8209;01</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/codearts2api">codearts2api</a></td><td style="white-space:normal">把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、q…</td><td style="white-space:nowrap">2026&#8209;11&#8209;01</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/dsh-holdem">dsh&#8209;holdem</a></td><td style="white-space:normal">DSH 多人联网德州扑克插件</td><td style="white-space:nowrap">2026&#8209;11&#8209;01</td></tr>
@@ -58,5 +58,5 @@
 </table>
 <!-- REPOS:END -->
 
-以上数据自动更新时间：2026-11-02 04:21
+以上数据自动更新时间：2026-11-03 07:22
 

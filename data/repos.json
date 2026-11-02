@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T04:21:34+08:00",
+  "generatedAt": "2026-11-03T07:22:16+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
@@ -143,7 +143,7 @@
       "url": "https://github.com/zhuweiyou/oc2api",
       "description": "OpenCode 免费模型的 OpenAI 兼容代理，纯 Go 实现，支持 SSE 流式，可部署到 Vercel、Docker 或本地。",
       "language": "Go",
-      "stars": 39,
+      "stars": 40,
       "forks": 70,
       "topics": [
         "openai",
@@ -151,7 +151,7 @@
         "opencode-proxy"
       ],
       "archived": false,
-      "updatedAt": "2026-10-28",
+      "updatedAt": "2026-11-02",
       "pushedAt": "2026-10-29",
       "pushedAtRaw": "2026-10-29T06:40:33Z"
     },
@@ -160,14 +160,14 @@
       "url": "https://github.com/zhuweiyou/codearts2api",
       "description": "把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、qoder、cline、opencode、minimax、gemini、智谱 AutoClaw、ModelScope、阿里 Accio 等）",
       "language": "JavaScript",
-      "stars": 28,
-      "forks": 7,
+      "stars": 31,
+      "forks": 10,
       "topics": [
         "free-model",
         "openai-gateway"
       ],
       "archived": false,
-      "updatedAt": "2026-11-01",
+      "updatedAt": "2026-11-02",
       "pushedAt": "2026-11-01",
       "pushedAtRaw": "2026-11-01T06:05:16Z"
     },
@@ -253,9 +253,9 @@
         "dsh-plugin"
       ],
       "archived": false,
-      "updatedAt": "2026-11-01",
-      "pushedAt": "2026-11-01",
-      "pushedAtRaw": "2026-11-01T09:35:32Z"
+      "updatedAt": "2026-11-02",
+      "pushedAt": "2026-11-02",
+      "pushedAtRaw": "2026-11-02T01:34:01Z"
     },
     {
       "name": "js-call-java",
