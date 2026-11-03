@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T07:22:16+08:00",
+  "generatedAt": "2026-11-04T05:38:26+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
@@ -13,7 +13,7 @@
       "url": "https://github.com/zhuweiyou/weixin-game-helper",
       "description": "微信小游戏辅助合集（加减大师、包你懂我、大家来找茬腾讯版、头脑王者、好友画我、悦动音符、我最在行、星途WeGoing、猜画小歌、知乎答题王、腾讯中国象棋、跳一跳、题多多黄金版）",
       "language": "JavaScript",
-      "stars": 1400,
+      "stars": 1399,
       "forks": 388,
       "topics": [
         "anyproxy",
@@ -30,7 +30,7 @@
         "weixin"
       ],
       "archived": true,
-      "updatedAt": "2026-10-15",
+      "updatedAt": "2026-11-04",
       "pushedAt": "2023-06-21",
       "pushedAtRaw": "2023-06-21T07:07:46Z"
     },
@@ -125,7 +125,7 @@
       "url": "https://github.com/zhuweiyou/vite-plugin-minify",
       "description": "Minify html in production",
       "language": "TypeScript",
-      "stars": 54,
+      "stars": 55,
       "forks": 4,
       "topics": [
         "minify",
@@ -134,7 +134,7 @@
         "vite-plugin-minify"
       ],
       "archived": false,
-      "updatedAt": "2026-10-15",
+      "updatedAt": "2026-11-03",
       "pushedAt": "2026-05-28",
       "pushedAtRaw": "2026-05-28T10:02:36Z"
     },
@@ -151,9 +151,9 @@
         "opencode-proxy"
       ],
       "archived": false,
-      "updatedAt": "2026-11-02",
-      "pushedAt": "2026-10-29",
-      "pushedAtRaw": "2026-10-29T06:40:33Z"
+      "updatedAt": "2026-11-03",
+      "pushedAt": "2026-11-03",
+      "pushedAtRaw": "2026-11-03T03:52:34Z"
     },
     {
       "name": "codearts2api",
@@ -167,9 +167,9 @@
         "openai-gateway"
       ],
       "archived": false,
-      "updatedAt": "2026-11-02",
-      "pushedAt": "2026-11-01",
-      "pushedAtRaw": "2026-11-01T06:05:16Z"
+      "updatedAt": "2026-11-03",
+      "pushedAt": "2026-11-03",
+      "pushedAtRaw": "2026-11-03T14:27:27Z"
     },
     {
       "name": "vite-plugin-mp",

@@ -16,12 +16,12 @@
 <tr><th style="white-space:nowrap">项目</th><th style="white-space:normal">简介</th><th style="white-space:nowrap">最后提交</th></tr>
 </thead>
 <tbody>
+<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/codearts2api">codearts2api</a></td><td style="white-space:normal">把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、q…</td><td style="white-space:nowrap">2026&#8209;11&#8209;03</td></tr>
+<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/oc2api">oc2api</a></td><td style="white-space:normal">OpenCode 免费模型的 OpenAI 兼容代理，纯 Go 实现，支持 SSE 流式，可部署到 Vercel、Docker 或本地。</td><td style="white-space:nowrap">2026&#8209;11&#8209;03</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/dsh-idea-git">dsh&#8209;idea&#8209;git</a></td><td style="white-space:normal">IDEA 风格的 Git 工具窗口，作为 DeepSeek Harness（DSH）插件运行</td><td style="white-space:nowrap">2026&#8209;11&#8209;02</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/phonecard">phonecard</a></td><td style="white-space:normal">手机桌面卡片</td><td style="white-space:nowrap">2026&#8209;11&#8209;01</td></tr>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/codearts2api">codearts2api</a></td><td style="white-space:normal">把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、q…</td><td style="white-space:nowrap">2026&#8209;11&#8209;01</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/dsh-holdem">dsh&#8209;holdem</a></td><td style="white-space:normal">DSH 多人联网德州扑克插件</td><td style="white-space:nowrap">2026&#8209;11&#8209;01</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/decktrace">decktrace</a></td><td style="white-space:normal">通用斗地主记牌器</td><td style="white-space:nowrap">2026&#8209;10&#8209;30</td></tr>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/oc2api">oc2api</a></td><td style="white-space:normal">OpenCode 免费模型的 OpenAI 兼容代理，纯 Go 实现，支持 SSE 流式，可部署到 Vercel、Docker 或本地。</td><td style="white-space:nowrap">2026&#8209;10&#8209;29</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/dsh-web-fetch-fix">dsh&#8209;web&#8209;fetch&#8209;fix</a></td><td style="white-space:normal">修复 DSH web_fetch：在开了 VPN/TUN（如 Clash fake-ip）的机器上，抓取公网网页会被误判成内网地址而拒绝。</td><td style="white-space:nowrap">2026&#8209;10&#8209;29</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/magpie-oc2api">magpie&#8209;oc2api</a></td><td style="white-space:normal">在 magpie 里使用你在 Vercel 上的 oc2api 实例。</td><td style="white-space:nowrap">2026&#8209;10&#8209;27</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/dsh-qq2006">dsh&#8209;qq2006</a></td><td style="white-space:normal">DSH QQ2006 皮肤插件</td><td style="white-space:nowrap">2026&#8209;10&#8209;25</td></tr>
@@ -58,5 +58,5 @@
 </table>
 <!-- REPOS:END -->
 
-以上数据自动更新时间：2026-11-03 07:22
+以上数据自动更新时间：2026-11-04 05:38
 
