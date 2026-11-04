@@ -40,22 +40,7 @@
 
 ## 🗄️ 归档项目
 
-<table>
-<thead>
-<tr><th style="white-space:nowrap">项目</th><th style="white-space:normal">简介</th><th style="white-space:nowrap">最后提交</th></tr>
-</thead>
-<tbody>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/weixin-game-helper">weixin&#8209;game&#8209;helper</a></td><td style="white-space:normal">微信小游戏辅助合集（加减大师、包你懂我、大家来找茬腾讯版、头脑王者、好友画我、悦动音符、我最在行、星途WeGoing、猜画小歌、知乎答题王、腾讯中国象棋、跳一跳、题多多黄金版）</td><td style="white-space:nowrap">2023&#8209;06&#8209;21</td></tr>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/chatgpt-api">chatgpt&#8209;api</a></td><td style="white-space:normal">封装 OpenAI 网页版最新 ChatGPT 接口, 不需要使用 API Key, 完全免费</td><td style="white-space:nowrap">2023&#8209;05&#8209;27</td></tr>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/wxapkg">wxapkg</a></td><td style="white-space:normal">微信小程序一键解密和解包工具</td><td style="white-space:nowrap">2026&#8209;02&#8209;08</td></tr>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/fetop100">fetop100</a></td><td style="white-space:normal">微信小程序 “前端TOP100”</td><td style="white-space:nowrap">2019&#8209;04&#8209;25</td></tr>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/weixin-headimg">weixin&#8209;headimg</a></td><td style="white-space:normal">一键合成所有微信好友头像</td><td style="white-space:nowrap">2018&#8209;01&#8209;02</td></tr>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/yiyan-api">yiyan&#8209;api</a></td><td style="white-space:normal">封装百度文心一言网页版 API</td><td style="white-space:nowrap">2023&#8209;09&#8209;11</td></tr>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/weixin-game-helper-search">weixin&#8209;game&#8209;helper&#8209;search</a></td><td style="white-space:normal">基于搜索引擎的问答匹配度查询</td><td style="white-space:nowrap">2023&#8209;06&#8209;21</td></tr>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/dsh-plugin-clawbot">dsh&#8209;plugin&#8209;clawbot</a></td><td style="white-space:normal">DSH（DeepSeek Harness）的微信 ClawBot 通道插件</td><td style="white-space:nowrap">2026&#8209;10&#8209;18</td></tr>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/chatgpt-team-helper-extension">chatgpt&#8209;team&#8209;helper&#8209;extension</a></td><td style="white-space:normal">ChatGPT Team Helper</td><td style="white-space:nowrap">2026&#8209;07&#8209;07</td></tr>
-</tbody>
-</table>
+共 9 个已归档项目，完整列表见 [GitHub 归档仓库](https://github.com/zhuweiyou?tab=repositories&q=&type=archived&language=&sort=)。
 <!-- REPOS:END -->
 
 以上数据自动更新时间：2026-11-04 05:38

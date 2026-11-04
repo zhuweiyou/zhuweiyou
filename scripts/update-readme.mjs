@@ -38,6 +38,8 @@ const README_PATH = path.join(ROOT, 'README.md');
 const JSON_PATH = path.join(ROOT, 'data', 'repos.json');
 const MARK_START = '<!-- REPOS:START -->';
 const MARK_END = '<!-- REPOS:END -->';
+// 归档项目不再逐个列表展示，只给一句说明 + 归档仓库列表链接
+const ARCHIVE_URL = `https://github.com/${USER}?tab=repositories&q=&type=archived&language=&sort=`;
 
 const headers = {
   Accept: 'application/vnd.github+json',
@@ -186,7 +188,7 @@ function renderReadme(repos) {
   const active = repos
     .filter((r) => !r.archived)
     .sort((a, b) => b.pushedAtRaw.localeCompare(a.pushedAtRaw) || a.name.localeCompare(b.name));
-  const archived = repos.filter((r) => r.archived);
+  const archivedCount = repos.filter((r) => r.archived).length;
 
   const updatedAt = new Intl.DateTimeFormat('zh-CN', {
     timeZone: 'Asia/Shanghai',
@@ -211,7 +213,7 @@ ${renderTable(active)}
 
 ## 🗄️ 归档项目
 
-${renderTable(archived, { showArchivedTag: false })}
+共 ${archivedCount} 个已归档项目，完整列表见 [GitHub 归档仓库](${ARCHIVE_URL})。
 ${MARK_END}
 
 以上数据自动更新时间：${updatedAt}
