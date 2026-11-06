@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T05:50:15+08:00",
+  "generatedAt": "2026-11-07T05:23:14+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
@@ -13,7 +13,7 @@
       "url": "https://github.com/zhuweiyou/weixin-game-helper",
       "description": "微信小游戏辅助合集（加减大师、包你懂我、大家来找茬腾讯版、头脑王者、好友画我、悦动音符、我最在行、星途WeGoing、猜画小歌、知乎答题王、腾讯中国象棋、跳一跳、题多多黄金版）",
       "language": "JavaScript",
-      "stars": 1399,
+      "stars": 1398,
       "forks": 388,
       "topics": [
         "anyproxy",
@@ -30,7 +30,7 @@
         "weixin"
       ],
       "archived": true,
-      "updatedAt": "2026-11-04",
+      "updatedAt": "2026-11-06",
       "pushedAt": "2023-06-21",
       "pushedAtRaw": "2023-06-21T07:07:46Z"
     },
@@ -144,32 +144,32 @@
       "description": "OpenCode 免费模型的 OpenAI 兼容代理，纯 Go 实现，支持 SSE 流式，可部署到 Vercel、Docker 或本地。",
       "language": "Go",
       "stars": 40,
-      "forks": 72,
+      "forks": 69,
       "topics": [
         "openai",
         "opencode",
         "opencode-proxy"
       ],
-      "archived": false,
-      "updatedAt": "2026-11-04",
-      "pushedAt": "2026-11-03",
-      "pushedAtRaw": "2026-11-03T03:52:34Z"
+      "archived": true,
+      "updatedAt": "2026-11-06",
+      "pushedAt": "2026-11-06",
+      "pushedAtRaw": "2026-11-06T02:05:15Z"
     },
     {
       "name": "codearts2api",
       "url": "https://github.com/zhuweiyou/codearts2api",
       "description": "把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、qoder、cline、opencode、minimax、gemini、智谱 AutoClaw、ModelScope、阿里 Accio 等）",
       "language": "JavaScript",
-      "stars": 35,
+      "stars": 37,
       "forks": 12,
       "topics": [
         "free-model",
         "openai-gateway"
       ],
       "archived": false,
-      "updatedAt": "2026-11-05",
-      "pushedAt": "2026-11-04",
-      "pushedAtRaw": "2026-11-04T06:03:42Z"
+      "updatedAt": "2026-11-06",
+      "pushedAt": "2026-11-06",
+      "pushedAtRaw": "2026-11-06T06:26:40Z"
     },
     {
       "name": "vite-plugin-mp",
