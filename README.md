@@ -1,13 +1,3 @@
-## 🧰 主要语言
-
-- **JavaScript**
-- **Go**
-- **TypeScript**
-- **C**
-- **Java**
-- **Kotlin**
-- **Rust**
-
 <!-- REPOS:START -->
 ## 🟢 活跃项目
 

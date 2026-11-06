@@ -172,17 +172,6 @@ function renderTable(repos, { showArchivedTag = true } = {}) {
   ].join('\n');
 }
 
-function renderLanguages(repos) {
-  const counts = new Map();
-  for (const r of repos) {
-    if (!r.language) continue;
-    counts.set(r.language, (counts.get(r.language) || 0) + 1);
-  }
-  const list = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-  if (!list.length) return '_暂无_';
-  return list.map(([lang]) => `- **${lang}**`).join('\n');
-}
-
 function renderReadme(repos) {
   // 活跃仓库（非归档、非 fork）按最后一次提交时间倒序（新的在前）
   const active = repos
@@ -202,11 +191,7 @@ function renderReadme(repos) {
     .format(new Date())
     .replace(/\//g, '-');
 
-  return `## 🧰 主要语言
-
-${renderLanguages(repos)}
-
-${MARK_START}
+  return `${MARK_START}
 ## 🟢 活跃项目
 
 ${renderTable(active)}
