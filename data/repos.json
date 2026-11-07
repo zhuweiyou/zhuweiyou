@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T05:23:14+08:00",
+  "generatedAt": "2026-11-08T04:00:14+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
@@ -161,7 +161,7 @@
       "description": "把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、qoder、cline、opencode、minimax、gemini、智谱 AutoClaw、ModelScope、阿里 Accio 等）",
       "language": "JavaScript",
       "stars": 37,
-      "forks": 12,
+      "forks": 13,
       "topics": [
         "free-model",
         "openai-gateway"
@@ -228,6 +228,34 @@
       "pushedAtRaw": "2026-03-23T01:18:02Z"
     },
     {
+      "name": "decktrace",
+      "url": "https://github.com/zhuweiyou/decktrace",
+      "description": "通用斗地主记牌器",
+      "language": "Rust",
+      "stars": 2,
+      "forks": 1,
+      "topics": [],
+      "archived": false,
+      "updatedAt": "2026-11-07",
+      "pushedAt": "2026-10-30",
+      "pushedAtRaw": "2026-10-29T16:00:55Z"
+    },
+    {
+      "name": "dsh-idea-git",
+      "url": "https://github.com/zhuweiyou/dsh-idea-git",
+      "description": "IDEA 风格的 Git 工具窗口，作为 DeepSeek Harness（DSH）插件运行",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "topics": [
+        "dsh-plugin"
+      ],
+      "archived": false,
+      "updatedAt": "2026-11-07",
+      "pushedAt": "2026-11-02",
+      "pushedAtRaw": "2026-11-02T01:34:01Z"
+    },
+    {
       "name": "e-call-go-dll",
       "url": "https://github.com/zhuweiyou/e-call-go-dll",
       "description": "易语言调用 GoLang 编译的 DLL 示例",
@@ -243,19 +271,19 @@
       "pushedAtRaw": "2023-08-08T01:53:51Z"
     },
     {
-      "name": "dsh-idea-git",
-      "url": "https://github.com/zhuweiyou/dsh-idea-git",
-      "description": "IDEA 风格的 Git 工具窗口，作为 DeepSeek Harness（DSH）插件运行",
+      "name": "dsh-holdem",
+      "url": "https://github.com/zhuweiyou/dsh-holdem",
+      "description": "DSH 多人联网德州扑克插件",
       "language": "TypeScript",
       "stars": 1,
-      "forks": 0,
+      "forks": 1,
       "topics": [
         "dsh-plugin"
       ],
       "archived": false,
-      "updatedAt": "2026-11-02",
-      "pushedAt": "2026-11-02",
-      "pushedAtRaw": "2026-11-02T01:34:01Z"
+      "updatedAt": "2026-11-07",
+      "pushedAt": "2026-11-01",
+      "pushedAtRaw": "2026-11-01T00:49:49Z"
     },
     {
       "name": "js-call-java",
@@ -269,19 +297,6 @@
       "updatedAt": "2026-10-31",
       "pushedAt": "2024-04-24",
       "pushedAtRaw": "2024-04-24T08:07:53Z"
-    },
-    {
-      "name": "decktrace",
-      "url": "https://github.com/zhuweiyou/decktrace",
-      "description": "通用斗地主记牌器",
-      "language": "Rust",
-      "stars": 1,
-      "forks": 1,
-      "topics": [],
-      "archived": false,
-      "updatedAt": "2026-10-29",
-      "pushedAt": "2026-10-30",
-      "pushedAtRaw": "2026-10-29T16:00:55Z"
     },
     {
       "name": "dsh-plugin-clawbot",
@@ -299,6 +314,22 @@
       "pushedAtRaw": "2026-10-18T04:35:11Z"
     },
     {
+      "name": "magpie-oc2api",
+      "url": "https://github.com/zhuweiyou/magpie-oc2api",
+      "description": "在 magpie 里使用你在 Vercel 上的 oc2api 实例。",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "topics": [
+        "magpie-plugin",
+        "opencode-free-api"
+      ],
+      "archived": true,
+      "updatedAt": "2026-11-07",
+      "pushedAt": "2026-10-27",
+      "pushedAtRaw": "2026-10-27T02:40:28Z"
+    },
+    {
       "name": "adb-qr",
       "url": "https://github.com/zhuweiyou/adb-qr",
       "description": "ADB 二维码配对和连接",
@@ -310,21 +341,6 @@
       "updatedAt": "2026-11-04",
       "pushedAt": "2026-11-04",
       "pushedAtRaw": "2026-11-04T05:58:54Z"
-    },
-    {
-      "name": "dsh-holdem",
-      "url": "https://github.com/zhuweiyou/dsh-holdem",
-      "description": "DSH 多人联网德州扑克插件",
-      "language": "TypeScript",
-      "stars": 0,
-      "forks": 0,
-      "topics": [
-        "dsh-plugin"
-      ],
-      "archived": false,
-      "updatedAt": "2026-11-01",
-      "pushedAt": "2026-11-01",
-      "pushedAtRaw": "2026-11-01T00:49:49Z"
     },
     {
       "name": "phonecard",
@@ -353,22 +369,6 @@
       "updatedAt": "2026-10-31",
       "pushedAt": "2026-10-29",
       "pushedAtRaw": "2026-10-29T06:19:02Z"
-    },
-    {
-      "name": "magpie-oc2api",
-      "url": "https://github.com/zhuweiyou/magpie-oc2api",
-      "description": "在 magpie 里使用你在 Vercel 上的 oc2api 实例。",
-      "language": "JavaScript",
-      "stars": 0,
-      "forks": 0,
-      "topics": [
-        "magpie-plugin",
-        "opencode-free-api"
-      ],
-      "archived": false,
-      "updatedAt": "2026-10-31",
-      "pushedAt": "2026-10-27",
-      "pushedAtRaw": "2026-10-27T02:40:28Z"
     },
     {
       "name": "dsh-qq2006",
