@@ -6,7 +6,7 @@
 <tr><th style="white-space:nowrap">项目</th><th style="white-space:normal">简介</th><th style="white-space:nowrap">最后提交</th></tr>
 </thead>
 <tbody>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/codearts2api">codearts2api</a></td><td style="white-space:normal">把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、q…</td><td style="white-space:nowrap">2026&#8209;11&#8209;06</td></tr>
+<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/codearts2api">codearts2api</a></td><td style="white-space:normal">把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、q…</td><td style="white-space:nowrap">2026&#8209;11&#8209;08</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/adb-qr">adb&#8209;qr</a></td><td style="white-space:normal">ADB 二维码配对和连接</td><td style="white-space:nowrap">2026&#8209;11&#8209;04</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/vite-plugin-minify">vite&#8209;plugin&#8209;minify</a></td><td style="white-space:normal">Minify html in production</td><td style="white-space:nowrap">2026&#8209;11&#8209;04</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/dsh-idea-git">dsh&#8209;idea&#8209;git</a></td><td style="white-space:normal">IDEA 风格的 Git 工具窗口，作为 DeepSeek Harness（DSH）插件运行</td><td style="white-space:nowrap">2026&#8209;11&#8209;02</td></tr>
@@ -32,5 +32,5 @@
 共 11 个已归档项目，完整列表见 [GitHub 归档仓库](https://github.com/zhuweiyou?tab=repositories&q=&type=archived&language=&sort=)。
 <!-- REPOS:END -->
 
-以上数据自动更新时间：2026-11-08 04:00
+以上数据自动更新时间：2026-11-09 04:18
 
