@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T04:18:03+08:00",
+  "generatedAt": "2026-11-10T08:02:04+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
@@ -144,15 +144,15 @@
       "description": "把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、qoder、cline、opencode、minimax、gemini、智谱 AutoClaw、ModelScope、阿里 Accio 等）",
       "language": "JavaScript",
       "stars": 40,
-      "forks": 13,
+      "forks": 14,
       "topics": [
         "free-model",
         "openai-gateway"
       ],
       "archived": false,
-      "updatedAt": "2026-11-08",
-      "pushedAt": "2026-11-08",
-      "pushedAtRaw": "2026-11-08T05:52:03Z"
+      "updatedAt": "2026-11-09",
+      "pushedAt": "2026-11-09",
+      "pushedAtRaw": "2026-11-09T06:05:58Z"
     },
     {
       "name": "oc2api",
@@ -177,7 +177,7 @@
       "description": "Configure multi-pages applications and code splitting",
       "language": "JavaScript",
       "stars": 24,
-      "forks": 1,
+      "forks": 0,
       "topics": [],
       "archived": false,
       "updatedAt": "2026-10-15",
