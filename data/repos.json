@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T05:42:48+08:00",
+  "generatedAt": "2026-11-12T06:33:16+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
@@ -89,7 +89,7 @@
       "url": "https://github.com/zhuweiyou/weixin-headimg",
       "description": "一键合成所有微信好友头像",
       "language": "JavaScript",
-      "stars": 133,
+      "stars": 132,
       "forks": 36,
       "topics": [
         "headimg",
@@ -97,7 +97,7 @@
         "weixin"
       ],
       "archived": true,
-      "updatedAt": "2026-10-19",
+      "updatedAt": "2026-11-11",
       "pushedAt": "2018-01-02",
       "pushedAtRaw": "2018-01-02T05:21:39Z"
     },
@@ -150,9 +150,9 @@
         "openai-gateway"
       ],
       "archived": false,
-      "updatedAt": "2026-11-10",
-      "pushedAt": "2026-11-10",
-      "pushedAtRaw": "2026-11-10T11:40:13Z"
+      "updatedAt": "2026-11-11",
+      "pushedAt": "2026-11-11",
+      "pushedAtRaw": "2026-11-11T09:20:17Z"
     },
     {
       "name": "oc2api",
