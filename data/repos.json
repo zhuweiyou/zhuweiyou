@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-13T06:08:37+08:00",
+  "generatedAt": "2026-11-14T05:50:40+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
     "bio": "Developer",
     "followers": 293,
-    "publicRepos": 33
+    "publicRepos": 34
   },
   "repos": [
     {
@@ -13,7 +13,7 @@
       "url": "https://github.com/zhuweiyou/weixin-game-helper",
       "description": "微信小游戏辅助合集（加减大师、包你懂我、大家来找茬腾讯版、头脑王者、好友画我、悦动音符、我最在行、星途WeGoing、猜画小歌、知乎答题王、腾讯中国象棋、跳一跳、题多多黄金版）",
       "language": "JavaScript",
-      "stars": 1397,
+      "stars": 1396,
       "forks": 388,
       "topics": [
         "anyproxy",
@@ -30,7 +30,7 @@
         "weixin"
       ],
       "archived": true,
-      "updatedAt": "2026-11-10",
+      "updatedAt": "2026-11-13",
       "pushedAt": "2023-06-21",
       "pushedAtRaw": "2023-06-21T07:07:46Z"
     },
@@ -143,23 +143,23 @@
       "url": "https://github.com/zhuweiyou/codearts2api",
       "description": "把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、qoder、cline、opencode、minimax、gemini、智谱 AutoClaw、ModelScope、阿里 Accio 等）",
       "language": "JavaScript",
-      "stars": 42,
+      "stars": 43,
       "forks": 14,
       "topics": [
         "free-model",
         "openai-gateway"
       ],
       "archived": false,
-      "updatedAt": "2026-11-12",
-      "pushedAt": "2026-11-12",
-      "pushedAtRaw": "2026-11-12T07:35:03Z"
+      "updatedAt": "2026-11-13",
+      "pushedAt": "2026-11-13",
+      "pushedAtRaw": "2026-11-13T06:41:13Z"
     },
     {
       "name": "oc2api",
       "url": "https://github.com/zhuweiyou/oc2api",
       "description": "OpenCode 免费模型的 OpenAI 兼容代理，纯 Go 实现，支持 SSE 流式，可部署到 Vercel、Docker 或本地。",
       "language": "Go",
-      "stars": 38,
+      "stars": 37,
       "forks": 68,
       "topics": [
         "openai",
@@ -167,7 +167,7 @@
         "opencode-proxy"
       ],
       "archived": true,
-      "updatedAt": "2026-11-12",
+      "updatedAt": "2026-11-13",
       "pushedAt": "2026-11-06",
       "pushedAtRaw": "2026-11-06T02:05:15Z"
     },
@@ -237,8 +237,8 @@
       "topics": [],
       "archived": false,
       "updatedAt": "2026-11-07",
-      "pushedAt": "2026-10-30",
-      "pushedAtRaw": "2026-10-29T16:00:55Z"
+      "pushedAt": "2026-11-13",
+      "pushedAtRaw": "2026-11-13T13:35:24Z"
     },
     {
       "name": "dsh-idea-git",
@@ -312,6 +312,35 @@
       "updatedAt": "2026-10-18",
       "pushedAt": "2026-10-18",
       "pushedAtRaw": "2026-10-18T04:35:11Z"
+    },
+    {
+      "name": "memscan",
+      "url": "https://github.com/zhuweiyou/memscan",
+      "description": "通用进程内存搜索引擎 + 微信进程内存搜索 GUI",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "archived": false,
+      "updatedAt": "2026-11-13",
+      "pushedAt": "2026-11-13",
+      "pushedAtRaw": "2026-11-13T15:17:24Z"
+    },
+    {
+      "name": "npp-acp",
+      "url": "https://github.com/zhuweiyou/npp-acp",
+      "description": "Notepad++ 的 ACP（Agent Client Protocol）聊天插件：在 Notepad++ 里打开一个右侧停靠面板，直接和 ACP agent 对话，让 agent 读写你正在编辑的代码",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "topics": [
+        "acp",
+        "notepad-plusplus-plugin"
+      ],
+      "archived": false,
+      "updatedAt": "2026-11-13",
+      "pushedAt": "2026-11-13",
+      "pushedAtRaw": "2026-11-13T08:21:11Z"
     },
     {
       "name": "magpie-oc2api",
@@ -421,19 +450,6 @@
       "updatedAt": "2026-07-15",
       "pushedAt": "2026-07-07",
       "pushedAtRaw": "2026-07-07T01:27:19Z"
-    },
-    {
-      "name": "memoryscanner",
-      "url": "https://github.com/zhuweiyou/memoryscanner",
-      "description": "内存扫描器, 类似于CE的字符串模糊搜索",
-      "language": "Go",
-      "stars": 0,
-      "forks": 0,
-      "topics": [],
-      "archived": false,
-      "updatedAt": "2025-10-27",
-      "pushedAt": "2025-10-27",
-      "pushedAtRaw": "2025-10-27T06:09:04Z"
     },
     {
       "name": "js-call-go-dll",
