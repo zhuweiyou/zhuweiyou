@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T04:30:39+08:00",
+  "generatedAt": "2026-11-16T04:54:15+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
@@ -143,16 +143,16 @@
       "url": "https://github.com/zhuweiyou/codearts2api",
       "description": "把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、qoder、cline、opencode、minimax、gemini、智谱 AutoClaw、ModelScope、阿里 Accio 等）",
       "language": "JavaScript",
-      "stars": 44,
-      "forks": 14,
+      "stars": 47,
+      "forks": 15,
       "topics": [
         "free-model",
         "openai-gateway"
       ],
       "archived": false,
-      "updatedAt": "2026-11-14",
-      "pushedAt": "2026-11-14",
-      "pushedAtRaw": "2026-11-14T06:04:47Z"
+      "updatedAt": "2026-11-15",
+      "pushedAt": "2026-11-15",
+      "pushedAtRaw": "2026-11-15T06:41:40Z"
     },
     {
       "name": "oc2api",
@@ -323,8 +323,8 @@
       "topics": [],
       "archived": false,
       "updatedAt": "2026-11-13",
-      "pushedAt": "2026-11-13",
-      "pushedAtRaw": "2026-11-13T15:17:24Z"
+      "pushedAt": "2026-11-15",
+      "pushedAtRaw": "2026-11-15T15:30:18Z"
     },
     {
       "name": "npp-acp",
