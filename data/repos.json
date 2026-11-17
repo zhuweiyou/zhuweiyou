@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T04:54:15+08:00",
+  "generatedAt": "2026-11-17T08:04:03+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
@@ -56,7 +56,7 @@
       "description": "微信小程序一键解密和解包工具",
       "language": "Go",
       "stars": 202,
-      "forks": 46,
+      "forks": 45,
       "topics": [
         "miniprogram",
         "wechat",
@@ -142,17 +142,17 @@
       "name": "codearts2api",
       "url": "https://github.com/zhuweiyou/codearts2api",
       "description": "把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、qoder、cline、opencode、minimax、gemini、智谱 AutoClaw、ModelScope、阿里 Accio 等）",
-      "language": "JavaScript",
-      "stars": 47,
-      "forks": 15,
+      "language": "TypeScript",
+      "stars": 48,
+      "forks": 17,
       "topics": [
         "free-model",
         "openai-gateway"
       ],
       "archived": false,
-      "updatedAt": "2026-11-15",
-      "pushedAt": "2026-11-15",
-      "pushedAtRaw": "2026-11-15T06:41:40Z"
+      "updatedAt": "2026-11-16",
+      "pushedAt": "2026-11-16",
+      "pushedAtRaw": "2026-11-16T12:54:35Z"
     },
     {
       "name": "oc2api",
