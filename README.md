@@ -6,7 +6,7 @@
 <tr><th style="white-space:nowrap">项目</th><th style="white-space:normal">简介</th><th style="white-space:nowrap">最后提交</th></tr>
 </thead>
 <tbody>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/codearts2api">codearts2api</a></td><td style="white-space:normal">把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、q…</td><td style="white-space:nowrap">2026&#8209;11&#8209;17</td></tr>
+<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/codearts2api">codearts2api</a></td><td style="white-space:normal">把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、q…</td><td style="white-space:nowrap">2026&#8209;11&#8209;18</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/memscan">memscan</a></td><td style="white-space:normal">通用进程内存搜索引擎 + 微信进程内存搜索 GUI</td><td style="white-space:nowrap">2026&#8209;11&#8209;15</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/decktrace">decktrace</a></td><td style="white-space:normal">通用斗地主记牌器</td><td style="white-space:nowrap">2026&#8209;11&#8209;13</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/npp-acp">npp&#8209;acp</a></td><td style="white-space:normal">Notepad++ 的 ACP（Agent Client Protocol）聊天插件：在 Notepad++ 里打开一个右侧停靠面板，直接和 ACP agent 对话，让 age…</td><td style="white-space:nowrap">2026&#8209;11&#8209;13</td></tr>
@@ -33,5 +33,5 @@
 共 11 个已归档项目，完整列表见 [GitHub 归档仓库](https://github.com/zhuweiyou?tab=repositories&q=&type=archived&language=&sort=)。
 <!-- REPOS:END -->
 
-以上数据自动更新时间：2026-11-18 07:24
+以上数据自动更新时间：2026-11-19 06:53
 
