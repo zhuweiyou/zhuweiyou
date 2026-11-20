@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-20T06:57:17+08:00",
+  "generatedAt": "2026-11-21T06:33:15+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
     "bio": "Developer",
     "followers": 293,
-    "publicRepos": 35
+    "publicRepos": 34
   },
   "repos": [
     {
@@ -143,7 +143,7 @@
       "url": "https://github.com/zhuweiyou/codearts2api",
       "description": "把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、qoder、cline、opencode、minimax、gemini、智谱 AutoClaw、ModelScope、阿里 Accio 等）",
       "language": "TypeScript",
-      "stars": 52,
+      "stars": 54,
       "forks": 20,
       "topics": [
         "dsh-providers-hub",
@@ -151,9 +151,9 @@
         "openai-gateway"
       ],
       "archived": false,
-      "updatedAt": "2026-11-19",
-      "pushedAt": "2026-11-19",
-      "pushedAtRaw": "2026-11-19T07:10:36Z"
+      "updatedAt": "2026-11-21",
+      "pushedAt": "2026-11-20",
+      "pushedAtRaw": "2026-11-20T01:57:50Z"
     },
     {
       "name": "oc2api",
@@ -237,7 +237,7 @@
       "forks": 1,
       "topics": [],
       "archived": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-20",
       "pushedAt": "2026-11-13",
       "pushedAtRaw": "2026-11-13T13:35:24Z"
     },
