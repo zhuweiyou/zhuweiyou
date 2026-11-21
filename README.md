@@ -6,7 +6,7 @@
 <tr><th style="white-space:nowrap">项目</th><th style="white-space:normal">简介</th><th style="white-space:nowrap">最后提交</th></tr>
 </thead>
 <tbody>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/codearts2api">codearts2api</a></td><td style="white-space:normal">把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、q…</td><td style="white-space:nowrap">2026&#8209;11&#8209;20</td></tr>
+<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/codearts2api">codearts2api</a></td><td style="white-space:normal">把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、q…</td><td style="white-space:nowrap">2026&#8209;11&#8209;21</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/magpie-kilo-vercel">magpie&#8209;kilo&#8209;vercel</a></td><td style="white-space:normal">在 magpie 里通过 纯 Vercel 反向代理 使用 Kilo 的免费模型</td><td style="white-space:nowrap">2026&#8209;11&#8209;19</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/memscan">memscan</a></td><td style="white-space:normal">通用进程内存搜索引擎 + 微信进程内存搜索 GUI</td><td style="white-space:nowrap">2026&#8209;11&#8209;15</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/decktrace">decktrace</a></td><td style="white-space:normal">通用斗地主记牌器</td><td style="white-space:nowrap">2026&#8209;11&#8209;13</td></tr>
@@ -34,5 +34,5 @@
 共 11 个已归档项目，完整列表见 [GitHub 归档仓库](https://github.com/zhuweiyou?tab=repositories&q=&type=archived&language=&sort=)。
 <!-- REPOS:END -->
 
-以上数据自动更新时间：2026-11-21 06:33
+以上数据自动更新时间：2026-11-22 05:30
 

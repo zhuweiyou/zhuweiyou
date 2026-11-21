@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T06:33:15+08:00",
+  "generatedAt": "2026-11-22T05:30:37+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
@@ -121,6 +121,23 @@
       "pushedAtRaw": "2023-09-11T01:46:32Z"
     },
     {
+      "name": "codearts2api",
+      "url": "https://github.com/zhuweiyou/codearts2api",
+      "description": "把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、qoder、cline、opencode、minimax、gemini、智谱 AutoClaw、ModelScope、阿里 Accio 等）",
+      "language": "TypeScript",
+      "stars": 58,
+      "forks": 21,
+      "topics": [
+        "dsh-providers-hub",
+        "free-model",
+        "openai-gateway"
+      ],
+      "archived": false,
+      "updatedAt": "2026-11-21",
+      "pushedAt": "2026-11-21",
+      "pushedAtRaw": "2026-11-21T06:55:39Z"
+    },
+    {
       "name": "vite-plugin-minify",
       "url": "https://github.com/zhuweiyou/vite-plugin-minify",
       "description": "Minify html in production",
@@ -137,23 +154,6 @@
       "updatedAt": "2026-11-04",
       "pushedAt": "2026-11-04",
       "pushedAtRaw": "2026-11-04T01:18:59Z"
-    },
-    {
-      "name": "codearts2api",
-      "url": "https://github.com/zhuweiyou/codearts2api",
-      "description": "把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、qoder、cline、opencode、minimax、gemini、智谱 AutoClaw、ModelScope、阿里 Accio 等）",
-      "language": "TypeScript",
-      "stars": 54,
-      "forks": 20,
-      "topics": [
-        "dsh-providers-hub",
-        "free-model",
-        "openai-gateway"
-      ],
-      "archived": false,
-      "updatedAt": "2026-11-21",
-      "pushedAt": "2026-11-20",
-      "pushedAtRaw": "2026-11-20T01:57:50Z"
     },
     {
       "name": "oc2api",
