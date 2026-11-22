@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T05:30:37+08:00",
+  "generatedAt": "2026-11-23T05:37:49+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
@@ -125,17 +125,17 @@
       "url": "https://github.com/zhuweiyou/codearts2api",
       "description": "把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、qoder、cline、opencode、minimax、gemini、智谱 AutoClaw、ModelScope、阿里 Accio 等）",
       "language": "TypeScript",
-      "stars": 58,
-      "forks": 21,
+      "stars": 62,
+      "forks": 22,
       "topics": [
         "dsh-providers-hub",
         "free-model",
         "openai-gateway"
       ],
       "archived": false,
-      "updatedAt": "2026-11-21",
-      "pushedAt": "2026-11-21",
-      "pushedAtRaw": "2026-11-21T06:55:39Z"
+      "updatedAt": "2026-11-22",
+      "pushedAt": "2026-11-22",
+      "pushedAtRaw": "2026-11-22T06:30:14Z"
     },
     {
       "name": "vite-plugin-minify",
