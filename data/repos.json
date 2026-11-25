@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:48:46+08:00",
+  "generatedAt": "2026-11-25T08:28:12+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
@@ -134,8 +134,8 @@
       ],
       "archived": false,
       "updatedAt": "2026-11-23",
-      "pushedAt": "2026-11-23",
-      "pushedAtRaw": "2026-11-23T08:52:47Z"
+      "pushedAt": "2026-11-24",
+      "pushedAtRaw": "2026-11-24T10:08:48Z"
     },
     {
       "name": "vite-plugin-minify",
@@ -160,7 +160,7 @@
       "url": "https://github.com/zhuweiyou/oc2api",
       "description": "OpenCode 免费模型的 OpenAI 兼容代理，纯 Go 实现，支持 SSE 流式，可部署到 Vercel、Docker 或本地。",
       "language": "Go",
-      "stars": 38,
+      "stars": 37,
       "forks": 68,
       "topics": [
         "openai",
