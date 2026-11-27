@@ -6,8 +6,9 @@
 <tr><th style="white-space:nowrap">项目</th><th style="white-space:normal">简介</th><th style="white-space:nowrap">最后提交</th></tr>
 </thead>
 <tbody>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/wxreport">wxreport</a></td><td style="white-space:normal">微信群 24h 话题报告</td><td style="white-space:nowrap">2026&#8209;11&#8209;25</td></tr>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/codearts2api">codearts2api</a></td><td style="white-space:normal">把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、q…</td><td style="white-space:nowrap">2026&#8209;11&#8209;25</td></tr>
+<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/wxreport">wxreport</a></td><td style="white-space:normal">微信群 24h 话题报告</td><td style="white-space:nowrap">2026&#8209;11&#8209;26</td></tr>
+<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/codearts2api">codearts2api</a></td><td style="white-space:normal">把十几种 AI 账号或订阅统一汇聚成 OpenAI 兼容接口，支持多账号池、额度管理、自动选号和失败切换，可自建、可容器部署。（workbuddy、codearts、trae、q…</td><td style="white-space:nowrap">2026&#8209;11&#8209;26</td></tr>
+<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/tinyjpg">tinyjpg</a></td><td style="white-space:normal">TinyJPG CLI</td><td style="white-space:nowrap">2026&#8209;11&#8209;26</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/magpie-kilo-vercel">magpie&#8209;kilo&#8209;vercel</a></td><td style="white-space:normal">在 magpie 里通过 纯 Vercel 反向代理 使用 Kilo 的免费模型</td><td style="white-space:nowrap">2026&#8209;11&#8209;19</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/memscan">memscan</a></td><td style="white-space:normal">通用进程内存搜索引擎 + 微信进程内存搜索 GUI</td><td style="white-space:nowrap">2026&#8209;11&#8209;15</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/decktrace">decktrace</a></td><td style="white-space:normal">通用斗地主记牌器</td><td style="white-space:nowrap">2026&#8209;11&#8209;13</td></tr>
@@ -20,7 +21,6 @@
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/dsh-web-fetch-fix">dsh&#8209;web&#8209;fetch&#8209;fix</a></td><td style="white-space:normal">修复 DSH web_fetch：在开了 VPN/TUN（如 Clash fake-ip）的机器上，抓取公网网页会被误判成内网地址而拒绝。</td><td style="white-space:nowrap">2026&#8209;10&#8209;29</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/dsh-qq2006">dsh&#8209;qq2006</a></td><td style="white-space:normal">DSH QQ2006 皮肤插件</td><td style="white-space:nowrap">2026&#8209;10&#8209;25</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/tinyjpg-idea-plugin">tinyjpg&#8209;idea&#8209;plugin</a></td><td style="white-space:normal">TinyJPG Idea Plugin</td><td style="white-space:nowrap">2026&#8209;10&#8209;13</td></tr>
-<tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/tinyjpg">tinyjpg</a></td><td style="white-space:normal">TinyJPG CLI</td><td style="white-space:nowrap">2026&#8209;07&#8209;30</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/vite-plugin-mp">vite&#8209;plugin&#8209;mp</a></td><td style="white-space:normal">Configure multi-pages applications and code splitting</td><td style="white-space:nowrap">2026&#8209;07&#8209;02</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/weixinbot">weixinbot</a></td><td style="white-space:normal">基于微信 iLink Bot API 的最小 Node.js 示例。</td><td style="white-space:nowrap">2026&#8209;03&#8209;23</td></tr>
 <tr><td style="white-space:nowrap"><a href="https://github.com/zhuweiyou/intelephense-cracker">intelephense&#8209;cracker</a></td><td style="white-space:normal">Intelephense 激活工具</td><td style="white-space:nowrap">2026&#8209;02&#8209;08</td></tr>
@@ -35,5 +35,5 @@
 共 11 个已归档项目，完整列表见 [GitHub 归档仓库](https://github.com/zhuweiyou?tab=repositories&q=&type=archived&language=&sort=)。
 <!-- REPOS:END -->
 
-以上数据自动更新时间：2026-11-26 08:04
+以上数据自动更新时间：2026-11-27 08:25
 
