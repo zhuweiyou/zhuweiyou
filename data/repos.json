@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-28T07:57:20+08:00",
+  "generatedAt": "2026-11-28T11:40:32+08:00",
   "user": {
     "login": "zhuweiyou",
     "name": null,
     "bio": "Developer",
     "followers": 293,
-    "publicRepos": 35
+    "publicRepos": 37
   },
   "repos": [
     {
@@ -281,8 +281,8 @@
       "topics": [],
       "archived": false,
       "updatedAt": "2026-11-27",
-      "pushedAt": "2026-11-27",
-      "pushedAtRaw": "2026-11-27T03:09:48Z"
+      "pushedAt": "2026-11-28",
+      "pushedAtRaw": "2026-11-28T01:23:42Z"
     },
     {
       "name": "dsh-holdem",
@@ -326,6 +326,35 @@
       "updatedAt": "2026-10-18",
       "pushedAt": "2026-10-18",
       "pushedAtRaw": "2026-10-18T04:35:11Z"
+    },
+    {
+      "name": "dsh-commands",
+      "url": "https://github.com/zhuweiyou/dsh-commands",
+      "description": "面向 DSH 的文件系统斜杠命令发现插件",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "archived": false,
+      "updatedAt": "2026-11-28",
+      "pushedAt": "2026-11-28",
+      "pushedAtRaw": "2026-11-28T02:17:34Z"
+    },
+    {
+      "name": "wxmsg",
+      "url": "https://github.com/zhuweiyou/wxmsg",
+      "description": "微信 4.2.0.53 的消息收发库，提供桌面程序和 Rust 依赖两种使用方式",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "topics": [
+        "wechat-bot",
+        "wechat-hook"
+      ],
+      "archived": false,
+      "updatedAt": "2026-11-28",
+      "pushedAt": "2026-11-28",
+      "pushedAtRaw": "2026-11-28T03:23:49Z"
     },
     {
       "name": "magpie-kilo-vercel",
